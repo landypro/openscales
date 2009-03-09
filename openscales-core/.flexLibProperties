@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flexLibProperties version="1">
+<includeClasses>
+<classEntry path="org.openscales.IMap"/>
+<classEntry path="org.openscales.Map"/>
+<classEntry path="org.openscales.OpenScales"/>
+<classEntry path="org.openscales.Viewport"/>
+<classEntry path="org.openscales.controls.AbstractMapControl"/>
+<classEntry path="org.openscales.controls.IMapControl"/>
+<classEntry path="org.openscales.controls.keyboard.KeyboardControl"/>
+<classEntry path="org.openscales.controls.keyboard.KeyboardPanControl"/>
+<classEntry path="org.openscales.controls.keyboard.KeyboardZoomControl"/>
+<classEntry path="org.openscales.controls.mouse.DragNDropMousePanControl"/>
+<classEntry path="org.openscales.controls.mouse.MapBorderMousePanControl"/>
+<classEntry path="org.openscales.controls.mouse.MousePanControl"/>
+<classEntry path="org.openscales.event.GlobalDispatcher"/>
+<classEntry path="org.openscales.event.OpenScalesEvent"/>
+<classEntry path="org.openscales.event.PanEvent"/>
+<classEntry path="org.openscales.event.ZoomEvent"/>
+<classEntry path="org.openscales.layer.AbstractLayer"/>
+<classEntry path="org.openscales.layer.DebugLayer"/>
+<classEntry path="org.openscales.layer.ILayer"/>
+<classEntry path="org.openscales.layer.MeridiansAndParallelsLayer"/>
+<classEntry path="org.openscales.provider.IDataProvider"/>
+<classEntry path="org.openscales.provider.RandomColorProvider"/>
+<classEntry path="org.openscales.renderer.AbstractDataRenderer"/>
+<classEntry path="org.openscales.renderer.IDataRenderer"/>
+<classEntry path="org.openscales.renderer.MeridiansAndParallelsRenderer"/>
+<classEntry path="org.openscales.tiling.Tile"/>
+<classEntry path="org.openscales.tiling.TileCache"/>
+<classEntry path="org.openscales.tiling.TilePool"/>
+<classEntry path="org.openscales.tiling.TileRenderer"/>
+<classEntry path="org.openscales.tiling.TiledLayer"/>
+</includeClasses>
+<includeResources/>
+<namespaceManifests/>
+</flexLibProperties>

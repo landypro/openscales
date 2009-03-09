@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<componentPackage>
+	<component id="Map" class="org.openscales.flex.Map" />
+	<component id="KeyboardPanControl" class="org.openscales.flex.controls.KeyboardPanControl" />
+	<component id="KeyboardZoomControl" class="org.openscales.flex.controls.KeyboardZoomControl" />
+</componentPackage>

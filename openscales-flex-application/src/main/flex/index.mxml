@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml"
+	xmlns:openscales="http://openscales.org"
+	layout="vertical">
+	
+	<mx:Metadata>
+		<![CDATA[
+			[SWF(width='800', height='600')]
+		]]>
+	</mx:Metadata>
+	
+	<mx:Script>
+		<![CDATA[
+			import org.openscales.event.OpenScalesEvent;
+		]]>
+	</mx:Script>
+	
+	<openscales:KeyboardZoomControl
+		id="keyboardZoomCtrl"
+		active="true"
+		target="{this.map}"/>
+	<openscales:KeyboardPanControl
+		id="keyboardPanCtrl"
+		active="true"
+		target="{this.map}"/>
+	
+	<mx:Panel width="100%" height="100%" title="OpenScales v0.1 - http://openscales.org" layout="horizontal">	
+		<openscales:Map id="map" width="100%" height="100%"/>
+		<mx:VBox width="33%" height="100%">
+			<mx:CheckBox id="keyboardZoomControlCheckBox" label="KeyboardZoomControl" selected="false" />
+			<mx:CheckBox id="keyboardPanControlCheckBox" label="KeyboardPanControl" selected="false"/>
+		</mx:VBox>
+	</mx:Panel>
+	
+	<!-- Binds the checkboxes to the controls -->
+	<mx:Binding source="keyboardPanCtrl.active" destination="keyboardPanControlCheckBox.selected" />
+	<mx:Binding source="keyboardPanControlCheckBox.selected" destination="keyboardPanCtrl.active"/>
+	
+	<mx:Binding source="keyboardZoomCtrl.active" destination="keyboardZoomControlCheckBox.selected" />
+	<mx:Binding source="keyboardZoomControlCheckBox.selected" destination="keyboardZoomCtrl.active"/>
+	
+</mx:Application>
