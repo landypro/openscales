@@ -74,10 +74,10 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:svn:http://openscales.org/svn/openscales/branches/romaric/</connection>
-		<developerConnection>scm:svn:http://openscales.org/svn/openscales/branches/romaric/</developerConnection>
+		<connection>scm:svn:http://openscales.org/svn/openscales/branches/trunk/</connection>
+		<developerConnection>scm:svn:http://openscales.org/svn/openscales/trunk/</developerConnection>
 		<tag>HEAD</tag>
-		<url>http://openscales.org/p/openscales/source/tree/HEAD/branches/romaric</url>
+		<url>http://openscales.org/p/openscales/source/tree/HEAD/trunk</url>
 	</scm>
 	<ciManagement>
 		<system>hudson</system>
